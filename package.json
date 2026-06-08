@@ -1,0 +1,19 @@
+{
+  "name": "git-stats",
+  "version": "1.0.0",
+  "description": "Custom Matrix grid profile metrics telemetry engine.",
+  "main": "api/stats.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "github",
+    "telemetry",
+    "svg"
+  ],
+  "author": "Sam",
+  "license": "MIT",
+  "dependencies": {}
+}
