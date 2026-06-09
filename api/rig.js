@@ -29,7 +29,7 @@ export default async function handler(req, res) {
             <text x="0" y="58" class="label">OS:      <tspan class="value">Windows 11 / Android</tspan></text>
             <text x="0" y="76" class="label">KERNEL:  <tspan class="value">Node.js / Vercel_Serverless</tspan></text>
             <text x="0" y="94" class="label">UPTIME:  <tspan class="value">100% (No-Crash Framework)</tspan></text>
-            <text x="0" y="112" class="label">SHELL:   <tspan class="value">Bash / Powershell</tspan></text>
+            <text x="0" y="112" class="label">SHELL:   <tspan class="value">GIT Terminal</tspan></text>
             <text x="0" y="130" class="label">CONFIG:  <tspan class="value">Sublime Text 4 / Prism_Launcher</tspan></text>
         </g>
     </svg>
