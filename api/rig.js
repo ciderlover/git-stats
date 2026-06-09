@@ -12,18 +12,18 @@ export default async function handler(req, res) {
         <rect width="100%" height="100%" class="bg" rx="6" />
 
         <g transform="translate(10, 0)">
-            <text x="15" y="25" class="logo">       /\       </text>
-            <text x="15" y="41" class="logo">      /  \      </text>
-            <text x="15" y="57" class="logo">     /\  /\     </text>
-            <text x="15" y="73" class="logo">    /  \/  \    </text>
-            <text x="15" y="89" class="logo">   /   ||   \   </text>
-            <text x="15" y="105" class="logo">  /    ||    \  </text>
-            <text x="15" y="121" class="logo"> /_____||_____\ </text>
+            <text x="15" y="25" class="logo">       /\\       </text>
+            <text x="15" y="41" class="logo">      /  \\      </text>
+            <text x="15" y="57" class="logo">     /\\  /\\     </text>
+            <text x="15" y="73" class="logo">    /  \\/  \\    </text>
+            <text x="15" y="89" class="logo">   /   ||   \\   </text>
+            <text x="15" y="105" class="logo">  /    ||    \\  </text>
+            <text x="15" y="121" class="logo"> /_____||_____\\ </text>
             <text x="15" y="137" class="logo">[==============]</text>
         </g>
 
         <g transform="translate(180, 0)">
-            <text x="0" y="30" class="header">SAM@MAINFRAME</text>
+            <text x="0" y="30" class="header">BILL@MAINFRAME</text>
             <line x1="0" y1="38" x2="130" y2="38" class="line" />
 
             <text x="0" y="58" class="label">OS:      <tspan class="value">Windows 11 / Android (Sideload Secured)</tspan></text>
@@ -35,7 +35,6 @@ export default async function handler(req, res) {
     </svg>
     `;
 
-    // High caching threshold since these specs rarely mutate
     res.setHeader('Content-Type', 'image/svg+xml');
     res.setHeader('Cache-Control', 's-maxage=86400, stale-while-revalidate');
     
